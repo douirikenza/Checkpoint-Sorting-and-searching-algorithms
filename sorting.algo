@@ -1,0 +1,17 @@
+ALGORITHM insertion_sort
+VAR
+    Tab : ARRAY_OF integer[n]
+    i , j , a , n = integer
+   
+BEGIN
+    for i from 1 to n do
+    x:=Tab[i]
+    j:= i
+    while (j>1)and (Tab[j-1]>a)do
+    Tab[j]:= Tab[j-1]
+    j:=j-1;
+    end while 
+    Tab[j]:x
+    end for 
+    
+END
