@@ -1,8 +1,12 @@
 ALGORITHM insertion_sort
+
+
+// this.is the declaration section
 VAR
+
     Tab : ARRAY_OF integer[n]
     i , j , a , n = integer
-   
+//    this is the begin section
 BEGIN
     for i from 1 to n do
     x:=Tab[i]
